@@ -21,7 +21,7 @@ public class CreateXMLByDom4j {
         //创建一个名为students的节点，因为是第一个创建，所以是根节点,再通过doc创建一个则会报错。
         Element root = document.addElement("students");
 
-        for(int i=0; i<10;i++){
+        for(int i=0; i<5;i++){
             //在root节点下创建一个名为student的节点
             Element childElement = root.addElement("student");
             //给student节点添加属性
